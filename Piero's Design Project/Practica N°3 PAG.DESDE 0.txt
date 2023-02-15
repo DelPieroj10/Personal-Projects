@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página desde 0. Ejercicio 3</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? familia= Open+Sans:peso@300;400;500;700;800 & display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- SECCION 1: -->
+
+    <header class="header" id="inicio">
+        <img src="/Assets/svg/menu.svg" alt="home menu" class="sandwich">
+        <nav class="menu__navegation">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="container head">
+            <h1 class="title">Diseñamos y Desarrollamos lo que necesitas</h1>
+            <p class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+    </header>
+    <main>
+    <!-- SECCION 2: -->
+
+        <section class="services container" id="servicios">
+            <h2 class="subtitle">Nuestro servicio</h2>
+            <div class="container-service">
+                <img src="/Assets/jpg y png/undraw_Interior_design_re_7mvn.png" alt="opciones de Servicios" class="img-service">
+                <div class="options-service">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Diseño de página web</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro exercitationem perferendis animi inventore voluptate cumque. Rem, esse. Sit, commodi sequi.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Mejora fotográfica</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro exercitationem perferendis animi inventore voluptate cumque. Rem, esse. Sit, commodi sequi.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Diseño de Interiores</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro exercitationem perferendis animi inventore voluptate cumque. Rem, esse. Sit, commodi sequi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- SECCION 3: -->
+
+        <section class="briefcase" id="portafolio">
+            <div class="container">
+                <h2 class="subtitle">Galeria</h2>
+                <div class="container-briefcase">
+                    <div class="container-img">
+                    <img class="img__briefcase image1" src="/Assets/jpg y png/alessandra-caretto-o3c-euNd_ZM-unsplash.jpg" alt="briefcase's image 1"> </div>
+                    <div class="container-img ">
+                    <img class="img__briefcase image2" src="/Assets/jpg y png/Cumple 38 c.Humo1.png" alt="briefcase's image 2"> </div>
+                    <div class="container-img">
+                    <img class="img__briefcase image3" src="/Assets/jpg y png/cash-macanaya-dE6IjXNoMTY-unsplash.jpg" alt="briefcase's image 3"> </div>
+                    <div class="container-img">
+                    <img class="img__briefcase image4" src="/Assets/jpg y png/yevgeniy-mironov-HsL9kQew0P4-unsplash.jpg" alt="briefcase's image 4"> </div>
+                    <div class="container-img">
+                    <img class="img__briefcase image5" src="/Assets/jpg y png/patrick-schneider-mFnbFaCIu1I-unsplash.jpg" alt="briefcase's image 5"> </div>
+                    <div class="container-img">
+                    <img class="img__briefcase image6" src="/Assets/jpg y png/Montaje CASCADA.png" alt="briefcase's image 6"> </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- SECCION 3.1: -->
+
+        <section class="image-light">
+            <img src="/Assets/svg/close.svg" alt="close light" class="close">
+            <img src="" alt="agregar imagen" class="add-image">
+        </section>
+
+    <!-- SECCION 4: -->
+
+        <section class="container" id="expertos">
+            <h2 class="subtitle">Expertos en:</h2>
+            <section class="experts">
+                <div class="content-expert">
+                    <img src="/Assets/svg/Web Developer_Isometric.svg" alt="Derrollo web">
+                    <h3 class="n-expert">Desarollo Web</h3>
+                </div>
+                <div class="content-expert">
+                    <img src="/Assets/svg/Designer _Isometric (1).svg" alt="Diseñador">
+                    <h3 class="n-expert">Diseño Gráfico y Digital</h3>
+                </div>
+                <div class="content-expert">
+                    <img src="/Assets/svg/Creative Process_Isometric.svg" alt="Proceso creativo">
+                    <h3 class="n-expert">Diseño de Interiores</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- SECCION 5: -->
+
+    <footer id="contacto">
+        <div class="container footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Piero's Design</h2>
+                <p>Cuentanos lo que necesitas para darle personalidad a tu casa o negocio y te lo diseñamos.</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon"><i class='bx bxl-facebook'></i>
+                </a>
+                <a href="./" class="social-media-icon"><i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon"><i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="/js/menu.js"></script>
+    <script src="/js/lightbox.js"></script>
+
+</body>
+</html>
